@@ -1,0 +1,226 @@
+@charset "UTF-8";
+
+html, body{
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: whitesmoke;
+}
+
+.page-container{
+    width: 70%;
+    height: 100%;
+    margin: auto;
+}
+
+.top-level-banner{
+    width:100%;
+    background-image: url("pildid/header_top.png");
+    height: 98px;
+}
+
+.bottom-level-banner{
+    width: 100%;
+    background-image: url("pildid/banner_bottom.jpg");
+    height: 30px;
+    float: left;
+}
+
+.page-container .side-banner{
+    width: 5%;
+    float: left;
+    background-image: url("pildid/banner_side.jpg");
+    height: 687px;
+}
+
+.page-container .main-page{
+    width: 90%;
+    float: left;
+    height: 687px;
+}
+
+.main-page .main-header{
+    width: 75%;
+    background-image: url("pildid/vadi-head.jpg");
+    background-size: contain;
+    float: left;
+    height:207px;
+}
+
+.main-page .splitter{
+    width: 100%;
+    background-color: burlywood;
+    height: 20px;
+    float:left;
+}
+
+.main-page .main-menu{
+    width: 25%;
+    height: 207px;
+    float: right;
+    background: rgb(54,69,79);
+    background: linear-gradient(180deg, rgba(54,69,79,1) 24%, rgba(34,34,34,1) 83%);
+}
+
+.main-menu .quick-menu-item{
+    color: whitesmoke;
+    height: 30px;
+    width: 100%;
+    float:left;
+    margin-top: 5px;
+    padding-top: 3px;
+    padding-bottom: 0;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    align-content: center;
+}
+
+.quick-menu-item:hover{
+    background-color: rgba(235, 235, 235, 0.5);
+}
+
+.quick-menu-item a{
+    color: whitesmoke;
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-decoration: none;
+}
+
+.quick-menu-item a:hover{
+    font-weight: bolder;
+    color: #FFFFFF;
+}
+
+.quick-menu-item a:visited{
+    color: whitesmoke;
+}
+
+.main-page .content-container{
+    width: 75%;
+    float: left;
+    height: 1150px;
+}
+
+.content-container .page-header{
+    background-color: lightgrey;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    margin: 20px;
+    width: 93%;
+    height: 40px;
+    padding: 10px;
+    align-content: center;
+}
+
+.content-container .body-text{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.content-container .p-splitter{
+    border: none;
+    border-top: 2px dashed #222222;
+    height: 2px;
+    width: 93%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.main-page .image-link-container{
+    width: 75%;
+    float: left;
+    height: 460px;
+}
+
+.image-link-container img{
+    transition: transform 0.8s;
+}
+
+.image-link-container img:hover{
+    transform: scale(1.02);
+}
+
+.main-page .side-panel-1{
+    width: 25%;
+    float: left;
+    height: 460px;
+    background-color: #d3d3d3;
+}
+
+.side-panel-1 .header-banner{
+    background-color: rgb(243, 243, 243);
+    width: 100%;
+    height: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 6px;
+}
+
+.side-panel-1 .text-container{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.side-panel-1 .quick-menu{
+    width: 100%;
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    background-color: #ededed;
+}
+
+.quick-menu .side-quick-menu-item{
+    width: 100%;
+    border: 1px #222222;
+    border-style: none none solid none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    float: left;
+    align-content: center;
+    padding-top:10px;
+    padding-left: 10px;
+    background: rgb(237,237,237);
+    background: linear-gradient(180deg, rgba(237,237,237,1) 24%, rgba(211,211,211,1) 86%);
+}
+
+.side-quick-menu-item:hover{
+    background: whitesmoke;
+}
+
+.side-quick-menu-item a{
+    color: black;
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-decoration: none;
+}
+
+.side-quick-menu-item a:hover{
+    font-weight: bolder;
+}
+
+.side-quick-menu-item a:visited{
+    color: black;
+}
+
+.footer{
+    width: 100%;
+    height: 50px;
+    background-color: #36454f;
+    float: left;
+}
+
